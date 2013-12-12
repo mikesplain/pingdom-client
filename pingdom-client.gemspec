@@ -47,8 +47,8 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency("faraday",       ["~> 0.5.7"])
       s.add_runtime_dependency("excon",         ["~> 0.5.6"])
       s.add_runtime_dependency("yajl-ruby",     ["~> 0.8.1"])
-      s.add_runtime_dependency("activesupport", ["~> 3.0.4"])
-      s.add_runtime_dependency("i18n",          ["~> 0.5.0"])
+      s.add_runtime_dependency("activesupport")
+      s.add_runtime_dependency("i18n")
       
       s.add_development_dependency("bundler", ["~> 1.0.0"])
       s.add_development_dependency("rake",    ["~> 0.8.7"])
@@ -57,8 +57,8 @@ Gem::Specification.new do |s|
       s.add_dependency("faraday",       ["~> 0.5.7"])
       s.add_dependency("excon",         ["~> 0.5.6"])
       s.add_dependency("yajl-ruby",     ["~> 0.8.1"])
-      s.add_dependency("activesupport", ["~> 3.0.4"])
-      s.add_dependency("i18n",          ["~> 0.5.0"])
+      s.add_dependency("activesupport")
+      s.add_dependency("i18n")
       
       s.add_dependency("bundler", ["~> 1.0.0"])
       s.add_dependency("rake",    ["~> 0.8.7"])
@@ -68,8 +68,8 @@ Gem::Specification.new do |s|
     s.add_dependency("faraday",       ["~> 0.5.7"])
     s.add_dependency("excon",         ["~> 0.5.6"])
     s.add_dependency("yajl-ruby",     ["~> 0.8.1"])
-    s.add_dependency("activesupport", ["~> 3.0.4"])
-    s.add_dependency("i18n",          ["~> 0.5.0"])
+    s.add_dependency("activesupport")
+    s.add_dependency("i18n")
     
     s.add_dependency("bundler", ["~> 1.0.0"])
     s.add_dependency("rake", ["~> 0.8.7"])
